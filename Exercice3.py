@@ -22,7 +22,7 @@ class Window(QWidget):
         self.counter += 1
         print(f"Clic {self.counter}")
         self.button.setText(f"Clic {self.counter}")
-        self.text_edit.setText(f"Click {self.counter}")
+        self.text_edit.setText(f"Nombre de clics : {self.counter}")
 
 if __name__ == "__main__":
     app = QApplication([])
